@@ -63,8 +63,14 @@ As incorporações são um modelo do OpenAI do Azure que converte texto em vetor
 ## Mineração de conhecimento
 
 ## Regressão
+Previsão de números, exemplo: probabilidade de diagnóstico de doenças, risco de investimento, gastos no cartão de crédito. Encontrar valor de previsão.
+### Regressão Linear
+Encontrar uma relação linear entre atributos. Exemplo: quanto maior a idade, maior o custo.
+### Regressão logística
+Usada quando não é possível traçar uma reta nos atributos. Exemplo: ao tentar prever se um cliente vai ou não pagar um empréstimo, temos apenas duas respostas, sim ou não, esses dois atributos não tem uma relação linear, entao utilizamos a Regressão logística, traçando um S. Utilizamos a função sigmoide, igual em redes neurais.
 
 ## Classificação
+Previsão ou separação de classes, exemplo: alto, medio, baixo.
 
 ## Clustering
 
